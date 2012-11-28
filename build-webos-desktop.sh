@@ -918,8 +918,8 @@ function build_keyboard-efigs
     cd $BASE/keyboard-efigs
 
     $LUNA_STAGING/bin/qmake-palm
-    make $JOBS -f Makefile.Ubuntu
-    make -f Makefile.Ubuntu install
+    make $JOBS
+    make install
 }
 
 #####################################
